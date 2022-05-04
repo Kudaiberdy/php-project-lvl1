@@ -18,7 +18,7 @@ function checkIsEven(int $num): string
 
 function getDataGame()
 {
-    return function () {
+    return function (): array {
         $question = rand(0, 100);
         $answer = checkIsEven($question);
         return [$answer, $question];
