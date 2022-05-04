@@ -8,7 +8,7 @@ const DESCRIPTION = "What number is missing in the progression?";
 
 function getArrProgression(int $startProgression, int $incremet): array
 {
-    $arrProgression[] = $startProgression;
+    $arrProgression = array($startProgression);
     $value = $arrProgression[0];
     $incremetProgression = $incremet;
     for ($i = 0; $i <= rand(5, 10); $i++) {
@@ -23,7 +23,7 @@ function getElementFromProgression(array $progression)
      return $progression[rand(0, count($progression) - 1)];
 }
 
-function replaceElementInArr(array $arr, $element): array
+function replaceElementInArr(array $arr, int $element): array
 {
     $replacedArr = $arr;
     foreach ($replacedArr as $key => $value) {
