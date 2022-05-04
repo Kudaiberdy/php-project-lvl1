@@ -1,0 +1,23 @@
+{
+    "name": "hexlet/code",
+    "description": "Brain games",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "files": [
+            "src/Cli.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kudaiberdy",
+            "email": "kudaiberdy.shagirov@gmail.com"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.13"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    }
+}
