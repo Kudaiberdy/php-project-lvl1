@@ -5,7 +5,9 @@
     "license": "proprietary",
     "autoload": {
         "files": [
-            "src/Cli.php"
+            "src/Cli.php",
+            "src/Engine.php",
+            "src/Games/EvenGame.php"
         ]
     },
     "bin": [
