@@ -16,4 +16,6 @@ Games:
 ### Setup
 ```sh
 $ git clone git@github.com:Kudaiberdy/php-project-lvl1.git
+
+```sh
 $ make install
