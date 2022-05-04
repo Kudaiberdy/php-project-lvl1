@@ -10,7 +10,8 @@
             "src/Games/EvenGame.php",
             "src/Games/CalcGame.php",
             "src/Games/GcdGame.php",
-            "src/Games/ProgressionGame.php"
+            "src/Games/ProgressionGame.php",
+            "src/Games/PrimeGame.php"
         ]
     },
     "bin": [
